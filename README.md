@@ -12,9 +12,8 @@ Please follow the release of this repository to get the latest SDK.
 
 ## Features
 
-- Support 5.1, 5.2, 5.3, 5.4, 5.5 
+- Support 5.1, 5.2, 5.3, 5.4, 5.5 ,5.6,5.7
 - Support Windows、Linux （CrossCompile）
-- Support Linux (Please contact our sales team for more information)
 - DirectX11, DirectX12, Vulkan graphics API support 
 - Support data import rendering 
 - Support roaming 
