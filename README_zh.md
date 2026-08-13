@@ -22,7 +22,7 @@
 | | LCC Plugin for UE |
 |---|---|
 | 规模 | 十亿点级3DGS场景一次性完整加载 |
-| 格式 | LCC2、LCC、PLY、SOG、SPZ（兼容v3/v4） |
+| 格式 | LCC2、LCC、PLY、SOG、SPZ（兼容v2/v3/v4） |
 | 性能 | 流式LoD，稳定高帧率 |
 | 重打光 | 基于Proxy Mesh代理网格的重打光 |
 | 深度 | 原生深度缓冲，支持电影级景深效果 |
@@ -53,14 +53,17 @@ LCC Plugin for UE 让十亿级高斯泼溅世界进入虚幻引擎。在引擎�
 ## 核心功能
 
 ### 数据与格式
-- 多格式3D高斯泼溅支持：LCC2、LCC、PLY、SOG、SPZ（兼容v3/v4）
+- 多格式3D高斯泼溅支持：LCC2、LCC、PLY、SOG、SPZ（兼容v2/v3/v4，SPZ v2 支持 Marble 导出的高斯）
 - 标准3DGS PLY文件导入（支持gsplat、3DGS原版、Nerfstudio、Postshot、Luma、Polycam等输出）
 - 无点数限制——可加载十亿级高斯
 - LCC2极致压缩，支持大规模真实世界场景
+- 支持更大尺寸的 SOG / SPZ / PLY 模型
 
 ### 渲染与性能
 - 流式Level-of-Detail (LoD)，稳定高帧率
+- GPU 驱动间接绘制，提升渲染效率
 - NVIDIA DLSS支持
+- SingleLayerWater 水面渲染支持
 - DirectX 11 / DirectX 12 / Vulkan
 - 原生深度渲染
 - 抗锯齿开关
@@ -90,9 +93,12 @@ LCC Plugin for UE 让十亿级高斯泼溅世界进入虚幻引擎。在引擎�
 - LED墙虚拟制片工作流
 
 ### 仿真与地理空间
-- Cesium for Unreal Engine支持
-- CARLA仿真器支持
+- Cesium for Unreal Engine 支持
+- CARLA 仿真器支持
 - 碰撞检测（单射线、多射线）
+- 导航网格（NavMesh）支持，用于 AI 寻路
+- 内置 PROJ 坐标转换库，无需依赖引擎 GeoReferencing 插件
+- SOG / SPZ / PLY 自动沿 X 轴旋转，匹配外部高斯泼溅坐标轴定义
 
 ### 开发者体验
 - 无代码蓝图可视化脚本
@@ -100,8 +106,11 @@ LCC Plugin for UE 让十亿级高斯泼溅世界进入虚幻引擎。在引擎�
 - 控制台命令用于性能分析和调试
 - 可配置线程池（遍历、加载、排序）
 - LCC文件选择对话框
-- 加载动画支持
+- 加载动画支持正向 / 反向播放
 - 数据动态加载/卸载
+- Actor 面板 ShowCollision / ShowFPS 快捷操作
+- 视口相机聚焦根组件（按 F 键框选）
+- 编辑器多语言本地化（英文、中文、德语、法语、日语、韩语）
 - UE 5.1 - 5.8 支持
 
 
@@ -132,7 +141,8 @@ LCC Plugin for UE 让十亿级高斯泼溅世界进入虚幻引擎。在引擎�
 
 - [开发者文档](https://developer.xgrids.cn/#/document?titleId=cn-1720170162723)
 - [教程](https://developer.xgrids.cn/#/tutorial?page=UE_SDK)
-- [更新日志](https://developer.xgrids.cn/#/document?titleId=cn-1720170723795)
+- [更新日志](./CHANGELOG_zh.md) —— 各版本详情见 [`zh-cn/changelog/`](./zh-cn/changelog)
+- [在线更新日志](https://developer.xgrids.cn/#/document?titleId=cn-1720170723795)
 
 ## 兼容性
 

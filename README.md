@@ -22,7 +22,7 @@ If you work with **3DGS, Gaussian Splats, point clouds, NeRF-style captures, or 
 | | LCC Plugin for UE |
 |---|---|
 | Scale | Billion-point 3DGS scenes loaded in one piece |
-| Formats | LCC2, LCC, PLY, SOG, SPZ (v3/v4 compatible) |
+| Formats | LCC2, LCC, PLY, SOG, SPZ (v2/v3/v4 compatible) |
 | Performance | Streaming LoD for stable high frame rates |
 | Relighting | Proxy Mesh based relighting |
 | Depth | Native depth buffer for true cinematic DOF |
@@ -52,14 +52,17 @@ Powered by LCC2's extreme compression, the plugin loads billion-point 3D Gaussia
 ## Key Features
 
 ### Data & Format
-- Multi-format 3D Gaussian Splat support: LCC2, LCC, PLY, SOG, SPZ (v3/v4 compatible)
+- Multi-format 3D Gaussian Splat support: LCC2, LCC, PLY, SOG, SPZ (v2/v3/v4 compatible; SPZ v2 supports Marble-exported Gaussians)
 - Standard 3DGS PLY file import (works with gsplat, 3DGS original, Nerfstudio, Postshot, Luma, Polycam, etc.)
 - No point-count limit — load billions of Gaussians
 - LCC2 extreme compression for massive real-world scenes
+- Support for larger SOG / SPZ / PLY models
 
 ### Rendering & Performance
 - Streaming Level-of-Detail (LoD) for stable high frame rates
+- GPU-driven indirect draw for improved rendering efficiency
 - NVIDIA DLSS support
+- SingleLayerWater support for water surface rendering
 - DirectX 11 / DirectX 12 / Vulkan
 - Native depth rendering
 - Anti-aliasing toggle
@@ -92,6 +95,9 @@ Powered by LCC2's extreme compression, the plugin loads billion-point 3D Gaussia
 - Cesium for Unreal Engine support
 - CARLA Simulator support
 - Collision detection (single & multi ray cast)
+- Navigation mesh (NavMesh) support for AI pathfinding
+- Built-in PROJ coordinate library (no external GeoReferencing dependency)
+- Auto X-axis rotation for SOG / SPZ / PLY to match external Gaussian Splatting coordinate conventions
 
 ### Developer Experience
 - Code-free Blueprint visual scripting
@@ -99,8 +105,11 @@ Powered by LCC2's extreme compression, the plugin loads billion-point 3D Gaussia
 - Console commands for performance profiling and debugging
 - Configurable thread pools (traversal, loading, sorting)
 - LCC file selection dialog
-- Load animation support
+- Load animation with forward / reverse playback
 - Dynamic load / unload of scene data
+- ShowCollision and ShowFPS quick actions on the Actor panel
+- Viewport camera focus on root component (press F to frame)
+- Multi-language editor localization (English, Chinese, German, French, Japanese, Korean)
 - UE 5.1 – 5.8 support
 
 ## Download
@@ -130,7 +139,8 @@ Please visit [developer.xgrids.com](https://developer.xgrids.com/#/download?page
 
 - [Developer Docs](https://developer.xgrids.com/#/document?titleId=en-1720509312452)
 - [Tutorials](https://developer.xgrids.com/#/tutorial?page=UE_SDK)
-- [Release Notes](https://developer.xgrids.com/#/document?titleId=en-1720509717058)
+- [Changelog](./CHANGELOG.md) — per-version notes in [`en-us/changelog/`](./en-us/changelog)
+- [Official Release Notes](https://developer.xgrids.com/#/document?titleId=en-1720509717058)
 
 ## Compatibility
 
