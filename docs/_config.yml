@@ -1,0 +1,25 @@
+title: LCC Plugin for UE
+description: 3D Gaussian Splatting in Unreal Engine — billion-point 3DGS rendering, relighting and editing
+theme: jekyll-theme-primer
+lang: en-US
+
+url: https://xgrids.github.io
+baseurl: /LCC-3DGS-Unreal-Plugin
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-readme-index
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+relative_links:
+  enabled: true
+  collections: true
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - .git
