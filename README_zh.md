@@ -4,12 +4,14 @@
 
 [English](./README.md) | 中文
 
-[![Discord](https://img.shields.io/badge/Discord-加入社区-5865F2?logo=discord&logoColor=white)](https://discord.gg/R8ysxTfDj)
+[![Discord](https://img.shields.io/badge/Discord-加入社区-5865F2?logo=discord&logoColor=white)](https://discord.gg/b99H8wjRaH)
 [![Forum](https://img.shields.io/badge/论坛-开发者社区-orange)](https://developer.xgrids.cn/#/forum)
 [![Website](https://img.shields.io/badge/官网-xgrids.com-blue)](https://xgrids.com/intl/lccUE)
 [![UE5](https://img.shields.io/badge/Unreal%20Engine-5.1--5.8-black?logo=unrealengine)](https://xgrids.com/intl/lccUE)
 [![Platform](https://img.shields.io/badge/平台-Windows%20|%20Linux-lightgrey)]()
 [![License](https://img.shields.io/badge/许可-免费%20%2B%20Pro-green)]()
+
+**[下载](https://developer.xgrids.cn/#/download?page=LCC_UNREAL_SDK_UE54)** · **[示例工程](https://github.com/xgrids/3dgs-unreal-example)** · **[文档](https://docs.xgrids.com/zh-cn/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html)** · **[常见问题](https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/19-faq.html)** · **[更新日志](./CHANGELOG_zh.md)**
 
 ## 这是什么？
 
@@ -114,9 +116,13 @@ LCC Plugin for UE 让十亿级高斯泼溅世界进入虚幻引擎。在引擎�
 - UE 5.1 - 5.8 支持
 
 
-## 下载
+## 快速开始
 
-请访问 [developer.xgrids.cn](https://developer.xgrids.cn/#/download?page=LCC_UNREAL_SDK_UE54) 获取最新版本插件。
+1. 从 [developer.xgrids.cn](https://developer.xgrids.cn/#/download?page=LCC_UNREAL_SDK_UE54) **下载插件** —— 选与你引擎版本对应的构建
+2. 解压到工程的 `Plugins/` 目录
+3. 打开工程，开始加载 3DGS 场景
+
+想直接看一个跑起来的工程？[**3dgs-unreal-example**](https://github.com/xgrids/3dgs-unreal-example) 是基于本插件的开箱即用示例工程，按功能拆成 13 个独立关卡，每个只演示一件事：加载 3DGS 场景、渲染模式对比、裁剪、碰撞、导航网格、水体、Sequencer 出片、GIS、多屏输出。支持 UE 5.4 - 5.8。
 
 ## 版本定价
 
@@ -139,10 +145,8 @@ LCC Plugin for UE 让十亿级高斯泼溅世界进入虚幻引擎。在引擎�
 
 ## 文档
 
-- [开发者文档](https://developer.xgrids.cn/#/document?titleId=cn-1720170162723)
-- [教程](https://developer.xgrids.cn/#/tutorial?page=UE_SDK)
+- [文档](https://docs.xgrids.com/zh-cn/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html)
 - [更新日志](./CHANGELOG_zh.md) —— 各版本详情见 [`zh-cn/changelog/`](./zh-cn/changelog)
-- [在线更新日志](https://developer.xgrids.cn/#/document?titleId=cn-1720170723795)
 
 ## 兼容性
 
@@ -163,7 +167,7 @@ XGRIDS 致力于构建全球领先的空间智能平台，连接物理世界与�
 
 - 邮箱：enterprise@xgrids.com
 - 官网：[xgrids.com](https://xgrids.com/intl/lccUE)
-- Discord：[discord.gg/R8ysxTfDj](https://discord.gg/R8ysxTfDj)
+- Discord：[discord.gg/b99H8wjRaH](https://discord.gg/b99H8wjRaH)
 
 ---
 

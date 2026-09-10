@@ -4,12 +4,14 @@
 
 [English](#) | [中文](./README_zh.md)
 
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/R8ysxTfDj)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/b99H8wjRaH)
 [![Forum](https://img.shields.io/badge/Forum-Developer%20Community-orange)](https://developer.xgrids.com/#/forum)
 [![Website](https://img.shields.io/badge/Website-xgrids.com-blue)](https://xgrids.com/intl/lccUE)
 [![UE5](https://img.shields.io/badge/Unreal%20Engine-5.1--5.8-black?logo=unrealengine)](https://xgrids.com/intl/lccUE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20|%20Linux-lightgrey)]()
 [![License](https://img.shields.io/badge/License-Free%20%2B%20Pro-green)]()
+
+**[Download](https://developer.xgrids.com/#/download?page=LCC_UNREAL_SDK_UE54)** · **[Example Project](https://github.com/xgrids/3dgs-unreal-example)** · **[Docs](https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html)** · **[FAQ](https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/19-faq.html)** · **[Changelog](./CHANGELOG.md)**
 
 ## What is this?
 
@@ -112,9 +114,13 @@ Powered by LCC2's extreme compression, the plugin loads billion-point 3D Gaussia
 - Multi-language editor localization (English, Chinese, German, French, Japanese, Korean)
 - UE 5.1 – 5.8 support
 
-## Download
+## Getting Started
 
-Please visit [developer.xgrids.com](https://developer.xgrids.com/#/download?page=LCC_UNREAL_SDK_UE54) to get the latest plugin.
+1. **Download the plugin** from [developer.xgrids.com](https://developer.xgrids.com/#/download?page=LCC_UNREAL_SDK_UE54) — pick the build matching your engine version
+2. Extract it into your project's `Plugins/` folder
+3. Open the project and start loading 3DGS scenes
+
+Prefer a working project over a blank one? [**3dgs-unreal-example**](https://github.com/xgrids/3dgs-unreal-example) is a ready-to-open UE project built on this plugin, split into 13 standalone levels that each demonstrate one feature: loading a 3DGS scene, render mode comparison, clipping, collision, navmesh, water, Sequencer output, GIS, and multi-display. Works on UE 5.4 – 5.8.
 
 ## Pricing
 
@@ -137,10 +143,8 @@ Please visit [developer.xgrids.com](https://developer.xgrids.com/#/download?page
 
 ## Documentation
 
-- [Developer Docs](https://developer.xgrids.com/#/document?titleId=en-1720509312452)
-- [Tutorials](https://developer.xgrids.com/#/tutorial?page=UE_SDK)
+- [Docs](https://docs.xgrids.com/en-us/07-plugin-sdk/01-unreal/v3.3.1/01-introduction.html)
 - [Changelog](./CHANGELOG.md) — per-version notes in [`en-us/changelog/`](./en-us/changelog)
-- [Official Release Notes](https://developer.xgrids.com/#/document?titleId=en-1720509717058)
 
 ## Compatibility
 
@@ -161,7 +165,7 @@ XGRIDS is building the world's leading spatial intelligence platform, bridging t
 
 - Email: enterprise@xgrids.com
 - Website: [xgrids.com](https://xgrids.com/intl/lccUE)
-- Discord: [discord.gg/R8ysxTfDj](https://discord.gg/R8ysxTfDj)
+- Discord: [discord.gg/b99H8wjRaH](https://discord.gg/b99H8wjRaH)
 
 ---
 
