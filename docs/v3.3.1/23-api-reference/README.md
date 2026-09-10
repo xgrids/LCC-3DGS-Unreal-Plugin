@@ -167,3 +167,5 @@ The `UFUNCTION` markup determines availability on the Blueprint side:
 | `BlueprintSetter` | The function also runs when the property is changed in the Details panel |
 | `CallInEditor` | A button appears directly in the Details panel |
 | No markup | C++ only |
+
+[← Back to documentation index](../)
