@@ -1,5 +1,7 @@
 ---
 title: Quick Start - Quest3
+parent: Documentation v3.3.1
+nav_order: 4
 description: View Unreal Engine 5 3DGS scenes on Meta Quest 3 through Quest Link streaming, using PC compute power for high-quality VR rendering.
 ---
 

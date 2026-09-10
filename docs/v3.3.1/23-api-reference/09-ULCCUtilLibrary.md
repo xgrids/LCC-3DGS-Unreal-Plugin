@@ -1,5 +1,8 @@
 ---
 title: ULCCUtilLibrary
+parent: API Reference
+grand_parent: Documentation v3.3.1
+nav_order: 9
 description: ULCCUtilLibrary provides the Blueprint static utility functions of LCC4Unreal, covering data path validation, 3DGS format detection, collision type detection, clipboard access, and version queries.
 ---
 

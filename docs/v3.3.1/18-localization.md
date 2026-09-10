@@ -1,5 +1,7 @@
 ---
 title: Localization
+parent: Documentation v3.3.1
+nav_order: 18
 description: Language settings for the LCC4Unreal plugin interface, which can follow the editor language or force English.
 ---
 

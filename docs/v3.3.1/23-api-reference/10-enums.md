@@ -1,5 +1,8 @@
 ---
 title: Enums
+parent: API Reference
+grand_parent: Documentation v3.3.1
+nav_order: 10
 description: Reference for the public enum types of LCC4Unreal, covering render mode, load mode, light mode, normal generation mode, clipping and section direction, file format, and other values.
 ---
 

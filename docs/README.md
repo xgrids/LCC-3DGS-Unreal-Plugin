@@ -1,5 +1,7 @@
 ---
-title: LCC Plugin for UE
+title: Home
+nav_order: 1
+permalink: /
 description: Developer documentation for LCC4Unreal — a 3D Gaussian Splatting rendering plugin for Unreal Engine 5.
 ---
 

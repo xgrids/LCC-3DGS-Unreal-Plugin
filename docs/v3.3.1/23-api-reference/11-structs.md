@@ -1,5 +1,8 @@
 ---
 title: Structs
+parent: API Reference
+grand_parent: Documentation v3.3.1
+nav_order: 11
 description: Reference for the public struct types of LCC4Unreal, covering the fields of the FRenderInfo performance parameters, the FMetaInfoBase metadata, the FLCCSplat ray hit result, and others.
 ---
 

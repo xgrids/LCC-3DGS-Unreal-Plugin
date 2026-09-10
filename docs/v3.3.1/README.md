@@ -1,5 +1,8 @@
 ---
-title: LCC Unreal Plugin v3.3.1
+title: Documentation v3.3.1
+nav_order: 2
+has_children: true
+permalink: /v3.3.1/
 description: Documentation index for LCC4Unreal v3.3.1 — quickstart guides, feature reference, API reference and changelog.
 ---
 

@@ -1,5 +1,8 @@
 ---
 title: ALCCActorBase
+parent: API Reference
+grand_parent: Documentation v3.3.1
+nav_order: 1
 description: ALCCActorBase is the base class of every 3DGS Actor in LCC4Unreal, providing the Load, UnLoad, and Refresh loading interfaces along with debug visualization.
 ---
 

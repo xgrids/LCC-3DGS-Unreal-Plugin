@@ -1,16 +1,15 @@
 title: LCC Plugin for UE
 description: 3D Gaussian Splatting in Unreal Engine — billion-point 3DGS rendering, relighting and editing
-theme: jekyll-theme-primer
 lang: en-US
 
 url: https://xgrids.github.io
 baseurl: /LCC-3DGS-Unreal-Plugin
 
+remote_theme: just-the-docs/just-the-docs
+
 plugins:
+  - jekyll-remote-theme
   - jekyll-relative-links
-  - jekyll-readme-index
-  - jekyll-optional-front-matter
-  - jekyll-titles-from-headings
   - jekyll-seo-tag
   - jekyll-sitemap
 
@@ -18,8 +17,33 @@ relative_links:
   enabled: true
   collections: true
 
-readme_index:
-  with_frontmatter: true
+# in-page table of contents on the right of each page
+heading_anchors: true
+
+# left nav behaviour
+nav_sort: case_insensitive
+nav_external_links:
+  - title: Plugin repository
+    url: https://github.com/xgrids/LCC-3DGS-Unreal-Plugin
+  - title: Example project
+    url: https://github.com/xgrids/3dgs-unreal-example
+  - title: Download
+    url: https://developer.xgrids.com/#/download?page=LCC_UNREAL_SDK_UE54
+
+aux_links:
+  GitHub: https://github.com/xgrids/LCC-3DGS-Unreal-Plugin
+  Discord: https://discord.gg/b99H8wjRaH
+aux_links_new_tab: true
+
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  tokenizer_separator: /[\s/]+/
+
+color_scheme: light
+
+footer_content: 'Built by <a href="https://www.xgrids.com/intl/lccUE">XGRIDS</a>. Docs source on <a href="https://github.com/xgrids/LCC-3DGS-Unreal-Plugin">GitHub</a>.'
 
 exclude:
   - .git

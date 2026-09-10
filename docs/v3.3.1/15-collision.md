@@ -1,5 +1,7 @@
 ---
 title: Collision
+parent: Documentation v3.3.1
+nav_order: 15
 description: Enable collision data for a 3DGS scene so characters can walk and interact inside the 3DGS world in UE5, including the loading mechanism, prerequisites, and verification.
 ---
 

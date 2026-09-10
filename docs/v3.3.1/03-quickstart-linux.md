@@ -1,5 +1,7 @@
 ---
 title: Quick Start - Linux
+parent: Documentation v3.3.1
+nav_order: 3
 description: Install the LCC4Unreal plugin on Linux and render 3DGS scenes with Unreal Engine 5, covering source build compilation, C++ project creation, data loading, and Linux application packaging.
 ---
 

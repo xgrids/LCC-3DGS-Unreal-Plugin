@@ -1,5 +1,7 @@
 ---
 title: Contact Us
+parent: Documentation v3.3.1
+nav_order: 22
 description: Technical support channels for LCC4Unreal, including the support email, the developer platform, the GitHub repository, and the Discord developer community.
 ---
 

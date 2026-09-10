@@ -1,5 +1,7 @@
 ---
 title: Visual Settings
+parent: Documentation v3.3.1
+nav_order: 7
 description: The 3DGS image parameters of LCC4Unreal, covering render modes, light modes, spherical harmonics coefficients, splat size, global alpha, color adjustment, and anti-aliasing settings.
 ---
 

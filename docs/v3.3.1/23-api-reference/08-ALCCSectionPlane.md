@@ -1,5 +1,8 @@
 ---
 title: ALCCSectionPlane
+parent: API Reference
+grand_parent: Documentation v3.3.1
+nav_order: 8
 description: ALCCSectionPlane sections a 3DGS scene with a plane and keeps one side, suitable for viewing the interior of a building or producing a layer-by-layer reveal effect.
 ---
 

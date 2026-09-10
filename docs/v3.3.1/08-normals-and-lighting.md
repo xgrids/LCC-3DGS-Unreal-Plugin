@@ -1,5 +1,7 @@
 ---
 title: Normals and Lighting
+parent: Documentation v3.3.1
+nav_order: 8
 description: A comparison of the four normal generation modes (Fixed, ViewFacing, Hemispherical, ProxyMesh) that let 3DGS take part in Unreal Engine 5 scene lighting, with guidance on choosing one.
 ---
 

@@ -1,5 +1,9 @@
 ---
 title: API Reference
+parent: Documentation v3.3.1
+nav_order: 23
+has_children: true
+permalink: /v3.3.1/23-api-reference/
 description: C++ and Blueprint interface reference for LCC4Unreal, covering Actors, Components, clipping and sectioning tools, the utility function library, enums, and structs, with call examples.
 ---
 

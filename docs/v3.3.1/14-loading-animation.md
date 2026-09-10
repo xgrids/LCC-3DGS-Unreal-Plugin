@@ -1,5 +1,7 @@
 ---
 title: Loading Animation
+parent: Documentation v3.3.1
+nav_order: 14
 description: Configure appear and disappear animations for a 3DGS scene, including two-stage animation parameters, inverse animation, scan line effects, and runtime control.
 ---
 

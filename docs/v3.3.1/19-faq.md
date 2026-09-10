@@ -1,5 +1,7 @@
 ---
 title: FAQ
+parent: Documentation v3.3.1
+nav_order: 19
 description: Frequently asked questions about LCC4Unreal, covering supported data formats, engine versions, platforms, licensing, performance, and how to handle common errors.
 ---
 

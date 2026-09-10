@@ -1,5 +1,9 @@
 ---
 title: Changelog
+parent: Documentation v3.3.1
+nav_order: 24
+has_children: true
+permalink: /v3.3.1/24-changelog/
 description: Release notes for every version of the LCC Unreal Plugin (LCC4Unreal).
 ---
 

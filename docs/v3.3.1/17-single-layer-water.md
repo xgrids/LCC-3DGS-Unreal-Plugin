@@ -1,5 +1,7 @@
 ---
-title: Single Layer Water Support
+title: Single Layer Water
+parent: Documentation v3.3.1
+nav_order: 17
 description: Fix 3DGS being occluded by the UE5 single layer water material, covering how to enable it and its impact on virtual shadow map quality.
 ---
 

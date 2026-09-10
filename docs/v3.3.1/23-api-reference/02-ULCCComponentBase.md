@@ -1,5 +1,8 @@
 ---
 title: ULCCComponentBase
+parent: API Reference
+grand_parent: Documentation v3.3.1
+nav_order: 2
 description: ULCCComponentBase is the base class of every 3DGS Component in LCC4Unreal, providing render mode, performance parameters, color adjustment, collision, GIS, and multi-viewport interfaces.
 ---
 
