@@ -1,7 +1,7 @@
 ---
 title: ULCC2Component
 parent: API Reference
-grand_parent: Documentation v3.3.1
+grand_parent: v3.3.1 (latest)
 nav_order: 4
 description: ULCC2Component is the Component specific to the LCC2 pipeline, providing spherical harmonics band control, lighting normal modes, and depth threshold settings, and serving the .lcc2, .sog, .spz, and .ply formats.
 ---

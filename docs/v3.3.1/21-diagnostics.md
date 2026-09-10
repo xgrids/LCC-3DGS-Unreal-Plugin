@@ -1,6 +1,6 @@
 ---
 title: Logging and Diagnostics
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 21
 description: How to read LCC4Unreal logs and use its debug tools, covering the meaning of the stat XGrids items, node bound and collision visualization, and a reference table of common log messages.
 ---

@@ -1,6 +1,6 @@
 ---
 title: Editions and Licensing
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 5
 description: Feature differences between the LCC4Unreal free edition and Pro edition, plus how to register an App Key for a Pro license and verify the license status.
 ---

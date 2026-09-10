@@ -1,6 +1,6 @@
 ---
 title: Proxy Mesh
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 13
 description: Use a ProxyMesh proxy mesh to provide real depth and normals for 3DGS and get shading based on the actual geometry, including placement steps, best practices, and troubleshooting.
 ---

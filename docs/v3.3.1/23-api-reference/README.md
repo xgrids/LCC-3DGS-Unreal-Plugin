@@ -1,6 +1,6 @@
 ---
 title: API Reference
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 23
 has_children: true
 permalink: /v3.3.1/23-api-reference/

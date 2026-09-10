@@ -1,6 +1,6 @@
 ---
 title: Performance Guide
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 11
 description: The frame rate tuning workflow for 3DGS scenes in UE5, from locating the bottleneck to adjusting render distance, splat count, LOD, and spherical harmonics bands by priority.
 ---

@@ -1,6 +1,6 @@
 ---
 title: Changelog
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 24
 has_children: true
 permalink: /v3.3.1/24-changelog/

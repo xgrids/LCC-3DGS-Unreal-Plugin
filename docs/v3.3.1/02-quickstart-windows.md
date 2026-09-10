@@ -1,6 +1,6 @@
 ---
 title: Quick Start - Windows
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 2
 description: Complete steps for installing the LCC4Unreal plugin on Windows and rendering a 3DGS scene in Unreal Engine 5, covering engine installation, plugin deployment, data loading, and project packaging.
 ---

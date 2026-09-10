@@ -1,6 +1,6 @@
 ---
 title: Scene Editing
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 9
 description: Use clipping volumes and section planes to clip 3DGS scenes spatially, cutting holes, opening up building shells, or keeping only a local area, with property descriptions and Blueprint methods.
 ---

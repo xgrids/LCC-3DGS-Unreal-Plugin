@@ -1,7 +1,7 @@
 ---
 title: ALCC2ProxyMesh
 parent: API Reference
-grand_parent: Documentation v3.3.1
+grand_parent: v3.3.1 (latest)
 nav_order: 6
 description: ALCC2ProxyMesh provides real scene depth and normals for the ProxyMesh normal mode of 3DGS, working with 3DGS in screen space through CustomDepth.
 ---

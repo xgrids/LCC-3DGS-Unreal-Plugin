@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 20
 description: Locate common LCC4Unreal failures by symptom, covering data loading failures, nothing displayed, flickering and ghosting, lighting problems, frame rate and video memory issues, packaging errors, and integration problems.
 ---

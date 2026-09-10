@@ -1,7 +1,7 @@
 ---
 title: SOG / SPZ / PLY Actors
 parent: API Reference
-grand_parent: Documentation v3.3.1
+grand_parent: v3.3.1 (latest)
 nav_order: 5
 description: ASogActor, ASpzActor, and APlyActor load a single .sog, .spz, or .ply 3DGS file in UE5, reusing the LCC2 rendering pipeline internally.
 ---

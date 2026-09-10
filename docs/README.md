@@ -18,6 +18,17 @@ Developer documentation for **LCC4Unreal**, a 3D Gaussian Splatting (3DGS) rende
 | Formats | LCC2, LCC, SOG, SPZ, PLY |
 | Graphics API | DirectX 11, DirectX 12, Vulkan |
 
+## Versions
+{: #versions }
+
+Each plugin release has its own documentation set. Pick the one matching the plugin version you installed — parameters and APIs differ between versions.
+
+| Version | Docs | Engine |
+| --- | --- | --- |
+| **v3.3.1** (latest) | [Read →](./v3.3.1/) | UE 5.4 – 5.8 |
+
+Release notes for every version, including older ones, are in the [changelog](./v3.3.1/24-changelog/).
+
 ## Quick Links
 
 - [Introduction](./v3.3.1/01-introduction.md) — formats, render pipelines, actor types, coordinate system

@@ -1,7 +1,7 @@
 ---
 title: ALCCClippingVolume
 parent: API Reference
-grand_parent: Documentation v3.3.1
+grand_parent: v3.3.1 (latest)
 nav_order: 7
 description: ALCCClippingVolume clips a 3DGS scene with a box or sphere volume, supports inside and outside modes, and can be created and adjusted at runtime.
 ---

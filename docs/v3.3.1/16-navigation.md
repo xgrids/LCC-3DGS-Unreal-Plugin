@@ -1,6 +1,6 @@
 ---
 title: Navigation System
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 16
 description: Let the Navigation System of UE5 generate a navigation mesh in a 3DGS scene so AI characters can path find automatically in the 3DGS world.
 ---

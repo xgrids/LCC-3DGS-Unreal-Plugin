@@ -1,7 +1,7 @@
 ---
 title: ULCCComponent
 parent: API Reference
-grand_parent: Documentation v3.3.1
+grand_parent: v3.3.1 (latest)
 nav_order: 3
 description: ULCCComponent is the Component specific to the LCC pipeline, providing point cloud ray tests, differentiated multi-viewport rendering, and seam cutting.
 ---

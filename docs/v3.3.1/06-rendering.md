@@ -1,6 +1,6 @@
 ---
 title: Rendering
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 6
 description: The 3DGS rendering mechanism of LCC4Unreal, covering the difference between chunked rendering and full load rendering, the video memory budget and Buffer limits, the loading limits of single-file formats, and the automatic release policy when video memory runs short.
 ---

@@ -1,12 +1,16 @@
 ---
-title: Documentation v3.3.1
-nav_order: 2
+title: v3.3.1 (latest)
+nav_order: 10
 has_children: true
 permalink: /v3.3.1/
 description: Documentation index for LCC4Unreal v3.3.1 — quickstart guides, feature reference, API reference and changelog.
 ---
 
 # LCC Unreal Plugin v3.3.1
+{: .no_toc }
+
+**Latest release.** Applies to plugin v3.3.1 on UE 5.4 – 5.8. For other versions see [all versions](../#versions).
+{: .fs-5 .fw-300 }
 
 3D Gaussian Splatting rendering plugin for Unreal Engine 5. Supports LCC2, LCC, SOG, SPZ and PLY, works on UE 5.4 – 5.8, packages for Windows and Linux.
 

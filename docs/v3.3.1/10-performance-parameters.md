@@ -1,6 +1,6 @@
 ---
 title: Performance Parameters
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 10
 description: An item-by-item description of every LCC4Unreal performance parameter, covering the LOD and distance limits in the Actor panel, the ProjectSettings global configuration, statistics, and debug tools.
 ---

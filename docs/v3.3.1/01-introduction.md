@@ -1,6 +1,6 @@
 ---
 title: Introduction
-parent: Documentation v3.3.1
+parent: v3.3.1 (latest)
 nav_order: 1
 description: LCC4Unreal is a 3DGS (3D Gaussian Splatting) rendering plugin developed by XGRIDS on Unreal Engine 5. It supports LCC2, SOG, SPZ, and PLY formats, works with UE 5.4 through 5.8, and packages for Windows and Linux.
 ---
